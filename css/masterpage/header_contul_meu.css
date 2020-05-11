@@ -1,0 +1,104 @@
+div.header_contul_meu {
+    position:absolute;
+    background-color:#ffffff;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    width:230px;
+    box-shadow:0 1px 12px 1px rgba(0,0,0,0.4);
+    z-index:1000;
+    display:none;
+    right:80px;
+    margin:15px 0 0 0;
+}
+div.header_contul_meu img.header_contul_meu_arw {
+    position:absolute;
+    margin:-16px 0 0 105px;
+}
+div.header_contul_meu div.header_contul_meu_header {
+    padding:10px;
+    border-bottom:1px solid #e4e4e4;
+}
+div.header_contul_meu div.header_contul_meu_header span.header_contul_meu_header_titlu {
+    font-size:12px;
+    color:#999999;
+}
+div.header_contul_meu div.header_contul_meu_header span.header_contul_meu_header_close {
+    float:right;
+    cursor:pointer;
+}
+div.header_contul_meu div.header_contul_meu_content {
+    line-height:0;
+    margin-bottom:-4px;
+    padding:10px;
+    font-size:12px;
+    text-align:center;
+}
+div.header_contul_meu div.header_contul_meu_content.loggedin {
+    line-height:normal;
+    height:auto;
+    padding:0;
+    margin:0;
+    text-align:left;
+}
+div.header_contul_meu div.header_contul_meu_content.loggedin ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+div.header_contul_meu div.header_contul_meu_content.loggedin li {
+
+}
+div.header_contul_meu div.header_contul_meu_content.loggedin li a {
+    display:block;
+    padding:10px;
+}
+div.header_contul_meu div.header_contul_meu_content.loggedin li a:hover {
+    background-color:#f4f4f4;
+}
+div.header_contul_meu div.header_contul_meu_content p {
+    line-height:18px;
+    font-size:12px;
+    margin:0;
+    padding:0;
+    color:#999999;
+}
+div.header_contul_meu div.header_contul_meu_content a {
+    text-decoration:none;
+    color:#007393;
+}
+div.header_contul_meu div.header_contul_meu_content label {
+    margin:10px 0 10px 5px;
+    color:#999999;
+}
+div.header_contul_meu div.header_contul_meu_content label input {
+    vertical-align:middle;
+}
+div.header_contul_meu div.header_contul_meu_content input[type=text], div.header_contul_meu div.header_contul_meu_content input[type=password] {
+    margin:3px 0 10px 0;
+    padding:5px;
+    background:none;
+    border:1px solid #cacaca;
+    width:100%;
+    box-sizing:border-box;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+}
+div.header_contul_meu div.header_contul_meu_content input[type=submit] {
+    margin:6px 0 15px 0;
+}
+div.header_contul_meu div.header_contul_meu_footer {
+    background-color:#f1f1f1;
+    color:#007393;
+    border-top:0 solid #d1d1d0;
+    -webkit-border-radius:0 0 5px 5px;
+    -moz-border-radius:0 0 5px 5px;
+    border-radius:0 0 5px 5px;
+    line-height:0;
+    margin-top:0;
+}
+div.header_contul_meu div.header_contul_meu_footer_btn {
+    padding:10px;
+    text-align:center;
+}

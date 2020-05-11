@@ -1,0 +1,217 @@
+div.lista_produse_simpla {
+    width:1275px;
+}
+
+div.lista_produse_simpla div.produs_wrap {
+    width:200px;
+    padding:20px;
+    display:inline-block;
+    vertical-align:top;
+    background-color: #ffffff;
+    margin-right:15px;
+    margin-bottom:15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
+}
+
+div.lista_produse_simpla div.produs_wrap div.produs {
+    margin:0 auto;
+    box-sizing:border-box;
+    position:relative;
+}
+
+div.lista_produse_simpla div.produs_wrap div.produs div.ribbons {
+    position:absolute;
+    margin:0 0 0 -28px;
+    line-height:0;
+}
+
+div.lista_produse_simpla div.produs_wrap div.produs div.ribbons div.ribbon {
+    background-color:#63b000;
+    width:85px;
+    text-transform:uppercase;
+    padding:5px 8px 5px 8px;
+    color:#ffffff;
+    font-size:12px;
+    font-weight:bold;
+    line-height:normal;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0;
+}
+
+div.lista_produse_simpla div.produs_wrap div.produs div.imagine {
+    width:140px;
+    height:215px;
+    margin:0 auto;
+}
+
+div.lista_produse_simpla div.produs_wrap div.produs div.imagine img {
+    width:auto;
+    height:auto;
+    max-width:140px;
+    max-height:215px;
+}
+
+div.lista_produse_simpla div.produs_wrap div.produs div.nume {
+    margin:20px 0 0 0;
+    height:55px;
+    overflow:hidden;
+    text-align:center;
+}
+
+div.lista_produse_simpla div.produs_wrap div.produs div.nume a {
+    text-decoration:none;
+    color:#000000;
+    font-weight:bold;
+}
+
+div.lista_produse_simpla div.produs_wrap div.produs div.autor {
+    margin:10px 0 0 0;
+    height:20px;
+    overflow:hidden;
+    text-align:center;
+    font-size:12px;
+}
+
+div.lista_produse_simpla div.produs_wrap div.produs div.rating {
+    margin-top:10px;
+    height:14px;
+}
+
+div.lista_produse_simpla div.produs_wrap div.produs div.rating span.nr_voturi {
+    color:#787878;
+    font-size:11px;
+    display:inline-block;
+    padding:1px 0 0 2px;
+    vertical-align:top;
+}
+
+div.lista_produse_simpla div.produs_wrap div.produs div.pret {
+    margin-top: 10px;
+    color: #ff7800;
+    font-weight: bold;
+    height: 37px;
+    text-align:center;
+}
+
+div.lista_produse_simpla div.produs_wrap div.produs div.pret span.pret_vechi {
+    display: block;
+    color: #333333;
+    font-size: 14px;
+    font-weight: normal;
+    height: 14px;
+    margin-bottom:5px;
+    position:relative;
+}
+
+div.lista_produse_simpla div.produs_wrap div.produs div.pret span.pret_vechi span.reducere {
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    color:#999999;
+    margin-left:1px;
+}
+
+div.lista_produse_simpla div.produs_wrap div.produs div.pret span.pret {
+    color: #e74b31;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div.lista_produse_simpla div.produs_wrap div.produs div.economie {
+    display: block;
+    color: #e74b31;
+    height:15px;
+    padding:10px 0 0 0;
+    font-weight:bold;
+    font-size:13px;
+    text-align:center;
+}
+
+div.lista_produse_simpla div.produs_wrap div.produs div.btn {
+    margin-top: 10px;
+}
+
+
+/* XL */
+@media (min-width: 1410px) {
+
+}
+
+/* LG */
+@media (min-width: 1116px) and (max-width: 1409px) {
+
+    div.lista_produse_simpla {
+        width:979px;
+    }
+
+    div.lista_produse_simpla div.produs_wrap {
+        width:189.5px;
+    }
+
+}
+
+/* MD */
+@media (min-width: 860px) and (max-width: 1115px) {
+
+    div.lista_produse_simpla {
+        width:723px;
+    }
+
+    div.lista_produse_simpla div.produs_wrap {
+        width:186px;
+    }
+
+}
+
+/* SM */
+@media (max-width: 859px) {
+
+    div.lista_produse_simpla {
+        width:100%;
+        padding-right:2%;
+        box-sizing:border-box;
+    }
+
+    div.lista_produse_simpla div.produs_wrap {
+        width:48%;
+        margin: 0 0 2% 2%;
+        padding:0;
+        box-sizing:border-box;
+    }
+
+    div.lista_produse_simpla div.produs_wrap div.produs {
+        width:100%;
+        padding:7px;
+    }
+
+    div.lista_produse_simpla div.produs_wrap div.produs div.imagine {
+        width:auto !important;
+        height:auto !important;
+    }
+
+    div.lista_produse_simpla div.produs_wrap div.produs div.imagine img {
+        width:100% !important;
+        height:auto !important;
+    }
+
+    div.lista_produse_simpla div.produs_wrap div.next_url {
+        width:100%;
+        padding:15px;
+    }
+
+    div.lista_produse_simpla div.produs_wrap div.produs img.transport_gratuit {
+        margin:-5px 0 0 -5px;
+    }
+
+    div.lista_produse_simpla div.produs_wrap div.produs img.cu_cadou {
+        margin:-5px 0px 0 0;
+    }
+
+    div.lista_produse_simpla div.produs_wrap div.produs div.ribbons {
+        margin: 0 0 0 -15px;
+    }
+}

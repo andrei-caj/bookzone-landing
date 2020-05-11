@@ -1,0 +1,35 @@
+div.descriere {
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+div.descriere_inner {
+    height: 6rem;
+    overflow: hidden;
+}
+
+div.descriere div.gradient {
+    position: absolute;
+    height: 6rem;
+    width: 100%;
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    margin: 0 -15px 0 -15px;
+}
+
+div.descriere div.pagina_descriere_txt {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+
+div.descriere div.pagina_descriere_read_more {
+    margin: 20px 0 0 0;
+}
+
+.btn_white.sm.citeste_tot {
+    padding-left: 54px;
+    background-image: url('/img/butoane/btn_white_sm_citeste_tot.png');
+}

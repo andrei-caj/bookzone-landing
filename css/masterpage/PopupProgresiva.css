@@ -1,0 +1,183 @@
+div.progresiva {
+    width:600px;
+    left:50%;
+    margin-left:-300px;
+    box-sizing:border-box;
+    z-index:9999;
+    position:fixed;
+    bottom:0;
+    margin-bottom: -188px;
+    z-index:10001;
+}
+
+    div.progresiva.on div.header {
+        background-color: #158c03 !important;
+    }
+
+    div.progresiva.on div.content {
+        border-left: 2px solid #158c03;
+        border-right: 2px solid #158c03;
+    }
+
+    div.progresiva div.header {
+        background-color: #e74b30;
+        padding:10px 50px 10px 60px;
+        -webkit-border-radius: 5px 5px 0 0;
+        -moz-border-radius: 5px 5px 0 0;
+        border-radius: 5px 5px 0 0;
+        color: #ffffff;
+        cursor:pointer;
+        position:relative;
+    }
+
+        div.progresiva div.header img.cadou {
+            display:inline-block;
+            position:absolute;
+            margin:-18px 0 0-50px;
+            top:50%;
+        }
+
+        div.progresiva div.header img.arrow {
+            display:inline-block;
+            position:absolute;
+            right:0;
+            top:0;
+            margin:-15px 10px 0 0;
+            top:50%;
+        }
+
+        div.progresiva div.header img.arrow.up {
+            display:none;
+            /*-webkit-animation: mover 1s infinite  alternate;*/
+            /*animation: mover 1s infinite  alternate;*/
+        }
+
+        div.progresiva div.header img.arrow.down {
+            display:none;
+        }
+
+
+        @-webkit-keyframes mover {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-10px); }
+        }
+        @keyframes mover {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-10px); }
+        }
+
+        div.progresiva div.header div.titlu {
+            font-weight:bold;
+            font-size:18px;
+            margin-bottom:2px;
+        }
+
+        div.progresiva div.header div.sub_titlu {
+            font-size:12px;
+        }
+
+    div.progresiva div.content {
+        background-color: #ffffff;
+        padding:20px;
+        border-left:2px solid #e74b30;
+        border-right:2px solid #e74b30;
+        height:188px;
+        box-sizing:border-box;
+    }
+
+        div.progresiva div.content div.bonus {
+            text-align:center;
+            float:left;
+            width:33.33%;
+        }
+
+            div.progresiva div.content div.bonus.on div.icon.on {
+                display:block;
+            }
+
+            div.progresiva div.content div.bonus.on div.text_sub {
+                display:none;
+            }
+
+            div.progresiva div.content div.bonus.off div.icon.off {
+                display:block;
+            }
+
+            div.progresiva div.content div.bonus.off div.text {
+                color:#808080;
+            }
+
+            div.progresiva div.content div.bonus.off div.text_sub {
+                display:block;
+            }
+
+            div.progresiva div.content div.bonus.off div.check {
+                display:none;
+            }
+
+            div.progresiva div.content div.bonus div.icon {
+                margin-bottom:5px;
+                display:none;
+            }
+
+                div.progresiva div.content div.bonus div.icon img {
+                    display:block;
+                    margin:0 auto;
+                }
+
+            div.progresiva div.content div.bonus div.text {
+                font-weight:bold;
+                color:#158c03;
+                margin-bottom:10px;
+            }
+
+            div.progresiva div.content div.bonus div.text_sub {
+                font-size:12px;
+                color:#828282;
+                padding-top:5px;
+            }
+
+/* XL */
+@media (min-width: 1410px) {
+
+
+
+}
+
+/* LG */
+@media (min-width: 1116px) and (max-width: 1409px) {
+
+  
+
+}
+
+/* MD */
+@media (min-width: 860px) and (max-width: 1115px) {
+
+   
+
+}
+
+/* SM */
+@media (max-width: 859px) {
+
+    div.progresiva {
+        width:96%;
+        left:2%;
+        margin-left:0;
+    }
+
+        div.progresiva div.header div.titlu {
+            font-size:15px;
+        }
+
+        div.progresiva div.header div.sub_titlu {
+            font-size:11px;
+        }
+
+    div.progresiva div.content div.bonus div.text {
+        margin-bottom:5px;
+        height:51px;
+    }
+    
+}
